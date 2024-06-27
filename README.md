@@ -1,3 +1,2 @@
 # subham
-mern \n
-silicon
+mern
