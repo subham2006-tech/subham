@@ -1,3 +1,2 @@
 # subham
-mearn 
-silicon
+mern stack
