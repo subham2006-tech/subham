@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0566;
+    color: azure;
+ }
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding: 10px;
+ }
+ 
+ .navmenu a {
+    padding: 10px;
+    background-color:white;
+    margin: 5px;
+ 
+ }
+ .inputs {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+ }
+ 
+ .inputs input, .inputs button {
+    padding: 10px;
+    margin: 5px;
+    
+ }
+ .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    padding: 20px;
+ }
+ .data, .image {
+    background-color:#600303;
+    padding: 20px;
+    text-align: center;
+    visibility: hidden;
+ }
+ .image img{
+    height: 300px;
+ }

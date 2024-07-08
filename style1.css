@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13136b;
+    padding: 10px;
+}
+.nav .logo {
+    color:white;
+    font-size: 20px;
+}
+.nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.form-container {
+    margin: 20px;
+}
+.form-container input {
+    margin: 10px 0;
+}
+.result-container {
+    margin: 20px;
+}
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.result-header img {
+    height: 100px;
+}
+.result-body {
+    display: flex;
+    align-items: center;
+}
+.result-body img 
+{
+    height: 100px;
+    margin-right: 10px;
+}

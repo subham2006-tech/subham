@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav class="navigationBar">
+        <img src="html logo.png" alt="logo" height="50px" align="left">
+        <ul>
+          <li><a href="assignment1.html">Home</a></li>
+          <li><a id="switch" href="contactus.html">contactus</a></li>
+        </ul>
+    </nav>
+    <p>Movies, also known as films, are a form of visual storytelling that combines moving images, sound, and often music to create narratives or convey artistic expression. They are a major component of the entertainment industry and can vary widely in genre, style, and format.
+
+      Movies are typically categorized into genres such as drama, comedy, action, horror, science fiction, romance, thriller, and fantasy. They can be feature-length, typically running from 90 to 180 minutes, or short films, which are shorter in duration. Movies can be animated or live-action and can be produced for theatrical release, television, or streaming platforms.
+    </p>
+    <h3>
+        <b>FORM</b>
+    </h3>
+    <form action = "javascript:submitForm()" onSubmit = "return validate()">
+        <label for="name">name:</label>
+        <input type="text" id="name" name="name" placeholder="enter your name" required><br><br>
+        <label for="email">email:</label>
+        <input type="email" id="emial" name="email" placeholder="enter ur email" required><br>
+        <p>choose your favourite movie type</p>
+        <label for="movies">romantic</label>
+        <input type="checkbox" value="romantic" id="movies" name="movies"><br><br>
+        <label for="movies">science fiction</label>
+        <input type="checkbox" value="science fiction" id="movies" name="movies"><br><br>
+        <label for="movies">comedy</label>
+        <input type="checkbox" value="comedy" id="movies" name="movies"><br><br>
+        <label for="movies">action</label>
+        <input type="checkbox" value="action" id="movies" name="movies"><br><br>
+        <input type="submit" name="submit" value="submit">
+    </form>
+    <script>
+        function submitForm() {
+        window.alert("Form Submitted")
+      }
+    </script>
+    <footer>
+        <pre>
+
+
+
+
+
+
+
+        <small>all rights are reserved</small>
+        </pre>
+    </footer>
+    </div>
+</body>
+</html>
